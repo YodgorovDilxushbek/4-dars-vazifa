@@ -1,0 +1,1027 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 1920px;
+    width: auto;
+    margin: 0 auto;
+    /* font-family:'Ubuntu'; */
+  }
+  
+  header {
+    background-image: url(../images/backround.svg);
+    background-repeat: no-repeat;
+    background-position: 130px 190px;
+    background-color: #ebf5fd;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    list-style: none;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: #6e9bb8;
+    margin: 20px 7px 19px 338px;
+    padding: 0px;
+  }
+  
+  .menu ul div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .menu ul li:hover {
+    color: #0000de;
+  }
+  
+  .map {
+    margin: 19px 69px 18px 0px;
+  }
+  
+  .btn1 {
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    text-align: left;
+    color: #6e9bb8;
+    border-radius: 2px;
+    width: 16px;
+    height: 14px;
+    border: none;
+    margin: 20px 3px 18px 0px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  hr {
+    width: 1305px;
+    height: 1px;
+    margin-left: 338px;
+  }
+  
+  /* nav-bar */
+  
+  .nav-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 227px;
+    height: 46px;
+    margin: 33px 56px 42px 338px;
+  }
+  
+  .nav-bar ul {
+    display: flex;
+    gap: 29px;
+    margin: 42px 49px 55px 0px;
+    padding: 0px;
+  }
+  
+  .nav-bar ul li {
+    list-style: none;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.8px;
+    color: #0000de;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+  }
+  
+  .phone {
+    width: 16px;
+    height: 16px;
+    margin: 46px 4px 59px 0px;
+  }
+  
+  .number {
+    display: flex;
+    width: 112px;
+    padding: 0px;
+    margin: 44px 24px 58px 0px;
+  }
+  
+  .number1 {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17.6px;
+    text-align: left;
+    color: #0000de;
+    width: 112px;
+    height: 19px;
+  }
+  
+  .glass {
+    width: 24px;
+    height: 24px;
+    margin: 42px 24px 55px 0px;
+  }
+  
+  .btns {
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    margin: 30px 100px 43px 0px;
+  }
+  
+  .btn2 {
+    border-radius: 20px 0px;
+    background-color: #0000de;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;
+    color: #ffffff;
+    padding: 14px 0px;
+    width: 174px;
+    height: 48px;
+    transition: 0.5s;
+    border: none;
+    margin: 0px;
+  }
+  
+  .btn2:hover {
+    background-color: #050592;
+  }
+  
+  .btn3 {
+    margin: 0px;
+    border-radius: 20px 0px;
+    background-color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;
+    color: #0000de;
+    padding: 14px 0px;
+    width: 159px;
+    height: 48px;
+    border: none;
+    transition: 0.5s;
+  }
+  
+  .btn3:hover {
+    background-color: #fdedd0;
+  }
+  
+  /* extra-bar */
+  
+  .extra-bar {
+    display: flex;
+    gap: 5px;
+    margin: 0px 1354px 37px 338px;
+  }
+  
+  .extra-1 {
+    font-family: Ubuntu;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: #8fb1c7;
+    margin: 0px;
+  }
+  
+  .extra-2 {
+    font-family: Ubuntu;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: #8fb1c7;
+    margin: 0px;
+  }
+  
+  .extra-3 {
+    font-family: Ubuntu;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: #8fb1c7;
+    text-decoration: none;
+    margin: 0px;
+  }
+  
+  .hero {
+    display: flex;
+    gap: -23px;
+    margin: 0px 490px 58px 338px;
+  }
+  
+  .hero-text h1 {
+    font-family: Ubuntu;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48.4px;
+    text-align: left;
+    margin: 0px 0px 23px 0px;
+    width: 667px;
+  }
+  
+  .hero-text h1 span {
+    font-family: Ubuntu;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48.4px;
+    text-align: left;
+    color: #0000de;
+  }
+  
+  .hero-text p {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #000000;
+    margin: 0px 0px 42px 0px;
+  }
+  
+  .btns2 {
+    display: flex;
+    gap: 17px;
+    margin: 0px;
+  }
+  
+  .btn4 {
+    width: 240px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #0000de;
+    border-radius: 28px 0px;
+    padding: 23px 0px;
+    transition: 0.5s;
+  }
+  .btn5:hover {
+    background-color: #fdedd0;
+  }
+  
+  .btn5 {
+    width: 182px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #0000de;
+    padding: 23px 0px;
+    border-radius: 28px 0px;
+    border: none;
+    transition: 0.5s;
+  }
+  .btn4:hover {
+    background-color: #050592;
+  }
+  
+  .hero img {
+    margin: 0px 529px 95px 0px;
+  }
+  
+  /* main */
+  
+  .description {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 112px 338px 95px 343px;
+  }
+  
+  .description div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .description img {
+    width: 64px;
+    height: 64px;
+    margin: 0px;
+  }
+  
+  .description p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+  }
+  
+  /* category */
+  
+  .category {
+    margin: 0px 333px 26px 338px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .category h2 {
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    color: #000000;
+    width: 328px;
+    height: 154px;
+    margin: 0px 156px 0px 0px;
+  }
+  
+  .electro {
+    display: flex;
+    align-items: center;
+  }
+  
+  .komp {
+    width: 191px;
+    height: 128.07px;
+    color: #ffffff;
+    margin: 0px 12px 0px 0px;
+  }
+  
+  .electro p {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    width: 198px;
+    height: 50px;
+    margin: 38px 0px 40px 12px;
+  }
+  
+  .household {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .household img {
+    width: 165px;
+    height: 120.3px;
+    margin: 0px;
+  }
+  
+  .household p {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #000000;
+  }
+  
+  /*  */
+  
+  .category2 {
+    display: flex;
+    align-items: center;
+    margin: 0px 288px 91px 338px;
+  }
+  
+  .category2-text {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6489a0;
+    width: 382px;
+    height: 116px;
+    margin: 0px 61px 0px 0px;
+  }
+  
+  .furniture {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .furniture img {
+    width: 172px;
+    height: 127px;
+    margin: 0px;
+  }
+  
+  .furniture p {
+    margin: 24px 0px 31px 31px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    width: 198px;
+    height: 72px;
+  }
+  
+  .trube {
+    display: flex;
+  }
+  
+  .trube img {
+    margin: 0px;
+    width: 182px;
+    height: 115px;
+  }
+  
+  .trube p {
+    width: 243px;
+    height: 91px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    margin: 18px 0px 6px 14px;
+  }
+  
+  /* main */
+  
+  .description2 {
+    margin: 90px 337px 88px 338px;
+    padding: 0px;
+  }
+  
+  .description2 h3 {
+    width: 714px;
+    height: 44px;
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    margin: 0px 531px 0px 0px;
+  }
+  
+  /* containers */
+  
+  .container {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .purchace {
+    display: flex;
+    width: 615px;
+    height: 166px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    margin: 35px 15px 14px 0px;
+  }
+  
+  .purchace img {
+    width: 90px;
+    height: 90px;
+    margin: 38px 42px 38px 70px;
+  }
+  
+  .purchace-text :nth-child(1) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: left;
+    margin: 26px 260px 10px 30px;
+    color: #79a6c3;
+  }
+  
+  .purchace-text h4 {
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    margin: 0px 48px 15px 30px;
+  }
+  
+  .purchace-text :nth-child(3) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    margin: 0px 0px 26px 30px;
+    color: #6e9bb8;
+    width: 383px;
+    height: 43px;
+  }
+  
+  /* containers */
+  
+  .plane {
+    display: flex;
+    width: 615px;
+    height: 166px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    margin: 35px 15px 14px 0px;
+  }
+  
+  .plane img {
+    width: 90px;
+    height: 90px;
+    margin: 38px 41px 38px 0px;
+  }
+  
+  .plane-text :nth-child(1) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: left;
+    margin: 26px 252px 10px 30px;
+    color: #79a6c3;
+  }
+  
+  .plane-text h4 {
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    margin: 0px 8px 15px 30px;
+    width: 375px;
+    height: 27px;
+  }
+  
+  .plane-text :nth-child(3) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+  
+    margin: 0px 71px 26px 30px;
+    color: #6e9bb8;
+    width: 383px;
+    height: 43px;
+  }
+  
+  /* container2 */
+  
+  .square {
+    display: flex;
+    width: 615px;
+    height: 166px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    margin: 35px 15px 14px 0px;
+  }
+  
+  .square img {
+    width: 90px;
+    height: 90px;
+    margin: 38px 41px 38px 0px;
+  }
+  
+  .square-text :nth-child(1) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: left;
+    margin: 26px 252px 10px 30px;
+    color: #79a6c3;
+  }
+  
+  .square-text h4 {
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    margin: 0px 8px 15px 30px;
+    width: 375px;
+    height: 27px;
+  }
+  
+  .square-text :nth-child(3) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    margin: 0px 71px 26px 30px;
+    color: #6e9bb8;
+    width: 383px;
+    height: 43px;
+  }
+  
+  /* arm */
+  .container2 {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .arm {
+    display: flex;
+    width: 615px;
+    height: 166px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    margin: 35px 15px 14px 0px;
+  }
+  
+  .arm img {
+    width: 90px;
+    height: 90px;
+    margin: 38px 41px 38px 0px;
+  }
+  
+  .arm-text :nth-child(1) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: left;
+    margin: 26px 252px 10px 30px;
+    color: #79a6c3;
+  }
+  
+  .arm-text h4 {
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    margin: 0px 8px 15px 30px;
+    width: 375px;
+    height: 27px;
+  }
+  
+  .arm-text :nth-child(3) {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    margin: 0px 71px 26px 30px;
+    color: #6e9bb8;
+    width: 383px;
+    height: 43px;
+  }
+  
+  /* customer */
+  
+  .customer-name {
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    margin: 0px 1243px 34px 338px;
+  }
+  
+  /* divs */
+  
+  .customer {
+    background-color: #f0f4f8;
+    width: 1368px;
+    height: 460px;
+    border-radius: 120px 6px 120px 6px;
+    margin: 0px 276px 90px 276px;
+    padding: 59px 61px 0px 62px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .customer-containers {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .customer-containers :nth-child(1) img {
+    margin: 0px;
+  }
+  
+  .customer-containers :nth-child(1) h5 {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    margin: 22px 196px 1px 0px;
+  }
+  
+  .customer-containers :nth-child(1) p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6e9bb8;
+    margin: 0px;
+  }
+  
+  /* divs */
+  
+  .customer-containers :nth-child(2) img {
+    margin: 0px;
+  }
+  
+  .customer-containers :nth-child(2) h5 {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    margin: 22px 196px 1px 0px;
+  }
+  
+  .customer-containers :nth-child(2) p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6e9bb8;
+    margin: 0px;
+  }
+  
+  /* divs */
+  
+  .customer-containers :nth-child(3) img {
+    margin: 0px;
+  }
+  
+  .customer-containers :nth-child(3) h5 {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: left;
+    margin: 22px 196px 1px 0px;
+  }
+  
+  .customer-containers :nth-child(3) p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6e9bb8;
+    margin: 0px;
+  }
+  
+  /* btn */
+  
+  .customer-btn {
+    background-color: #ffffff;
+    padding: 14px;
+    text-decoration: none;
+    width: 405px;
+    height: 48px;
+    border-radius: 20px 0px;
+    margin: 41px 521px 17px 442px;
+    transition: 0.5s;
+  }
+  
+  .customer-btn h4 {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;
+    width: 405px;
+    color: #0000de;
+  }
+  
+  .customer-btn:hover {
+    background-color: rgb(255, 241, 186);
+    box-shadow: 1px 3px 4px rgb(155, 144, 0);
+  }
+  
+  /* bird */
+  
+  .useful {
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    margin: 0px 1110px 29px 338px;
+  }
+  
+  .link-bar {
+    margin: 0px 781px 11px 338px;
+  }
+  
+  .link-bar ul {
+    display: flex;
+    gap: 28px;
+  }
+  
+  .link-bar ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .link-bar ul :nth-child(1) {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin: 0px;
+    color: #6e9bb8;
+  }
+  
+  .link-bar ul :nth-child(2) {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin: 0px;
+    color: #6e9bb8;
+  }
+  
+  .link-bar ul :nth-child(3) {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin: 0px;
+    color: #6e9bb8;
+  }
+  
+  .link-bar ul :nth-child(4) {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin: 0px;
+    color: #6e9bb8;
+  }
+  .hr1 {
+    margin: 0px 337px 37px 338px;
+    color: #ecf1f6;
+    width: 1245px;
+    height: 2px;
+  }
+  
+  .we {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    margin: 0px 363px 9px 338px;
+  }
+  
+  /* bird */
+  .birds {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0px 337px 104px 338px;
+  }
+  
+  .birds div {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    padding: 8px 18px;
+  }
+  
+  .birds div p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+  }
+  
+  /* PRO */
+  
+  .pro {
+    display: flex;
+    background-color: #f0f4f8;
+    width: 1368px;
+    height: 354px;
+    border-radius: 64px 6px;
+    margin: 0px 276px 94px 276px;
+  }
+  
+  .pro-text :nth-child(1) {
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    margin: 82px 154px 0px 62px;
+  }
+  
+  .pro-text :nth-child(2) {
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 37.4px;
+    text-align: left;
+    color: #0000de;
+    margin: 0px 154px 17px 62px;
+  }
+  
+  .pro-text :nth-child(3) {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6e9bb8;
+    margin: 0px 53px 33px 62px;
+  }
+  
+  .pro-text :nth-child(4) {
+    margin: 0px 381px 52px 62px;
+    display: flex;
+  }
+  
+  .btns3 :nth-child(1) {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    padding: 23px 0px;
+    background-color: #0000de;
+    width: 250px;
+    height: 68px;
+    border-radius: 28px 0px;
+    margin: 0px 16px 0px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btns3 :nth-child(2) {
+    width: 153px;
+    height: 68px;
+    border-radius: 28px 0px;
+    margin: 0px;
+    color: #0000de;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 23px 0px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .btns3 :nth-child(1):hover {
+    background-color: rgb(16, 14, 81);
+    box-shadow: 1px 3px 4px rgb(127, 131, 255);
+  }
+  
+  .btns3 :nth-child(2):hover {
+    background-color: rgb(222, 221, 255);
+    box-shadow: 1px 3px 4px rgb(127, 131, 255);
+    color: rgb(255, 255, 255);
+  }
+  
+  .pro img {
+    width: 347px;
+    height: 313px;
+    margin: 41px 159px 0px 0px;
+  }
+  
